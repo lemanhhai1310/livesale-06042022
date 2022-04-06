@@ -4,7 +4,7 @@
 <div class="uk-position-relative home__content">
     <div class="uk-grid-collapse" uk-grid>
         <div class="uk-width-auto home__left">
-            <div class="" uk-sticky="offset: 62">
+            <div class="" uk-sticky="offset: 62;bottom: true;">
                 <div class="item__12">
                     <div class="uk-background-default uk-padding-small home__boxUser">
                         <div class="uk-grid-10 uk-flex-middle" uk-grid>
@@ -550,7 +550,7 @@
             </div>
         </div>
         <div class="uk-width-auto home__right">
-            <div uk-sticky="offset: 62">
+            <div uk-sticky="offset: 62;bottom: true;">
                 <div class="item__9">
                     <a href=""><img src="images/Livesale.com/Livesale.com/banner.png" alt=""></a>
                 </div>

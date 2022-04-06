@@ -1,0 +1,43 @@
+.footer{
+  border-top: 3px solid #F2C07E;
+  padding-top: 0;
+  &__nav{
+    >li{
+      >a{
+        letter-spacing: -0.177119px;
+        @extend .fz-12;
+        color: #848484;
+      }
+    }
+  }
+  &__title{
+    letter-spacing: -0.177119px;
+    margin-bottom: 23px;
+    color: #000000;
+    @extend .fz-12;
+    font-family: $font-HKGrotesk-Bold;
+  }
+  &__navbar{
+    border-top: 2px solid #9B9B9B;
+    .uk-logo{
+      letter-spacing: -0.177119px;
+      @extend .fz-12;
+      color: #848484;
+
+    }
+    .uk-navbar-nav{
+      >li{
+        >a{
+          letter-spacing: -0.177119px;
+          @extend .fz-12;
+          color: #848484;
+        }
+      }
+    }
+  }
+  &__txt{
+    letter-spacing: -0.177119px;
+    @extend .fz-12;
+    color: #000000;
+  }
+}

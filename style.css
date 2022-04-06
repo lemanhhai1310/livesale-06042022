@@ -877,16 +877,16 @@ body {
   }
 }
 
-.fz-12, .home__boxToplivesaler__body__label, .home__boxToplivesaler__body__btn, .home__box2__txt {
+.fz-12, .home__boxToplivesaler__body__label, .home__boxToplivesaler__body__btn, .home__box2__txt, .footer__txt, .footer__navbar .uk-navbar-nav > li > a, .footer__navbar .uk-logo, .footer__title, .footer__nav > li > a {
   font-size: 12px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-12, .home__boxToplivesaler__body__label, .home__boxToplivesaler__body__btn, .home__box2__txt {
+  .fz-12, .home__boxToplivesaler__body__label, .home__boxToplivesaler__body__btn, .home__box2__txt, .footer__txt, .footer__navbar .uk-navbar-nav > li > a, .footer__navbar .uk-logo, .footer__title, .footer__nav > li > a {
     font-size: calc(12px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-12, .home__boxToplivesaler__body__label, .home__boxToplivesaler__body__btn, .home__box2__txt {
+  .fz-12, .home__boxToplivesaler__body__label, .home__boxToplivesaler__body__btn, .home__box2__txt, .footer__txt, .footer__navbar .uk-navbar-nav > li > a, .footer__navbar .uk-logo, .footer__title, .footer__nav > li > a {
     font-size: 12px !important;
   }
 }
@@ -1241,8 +1241,39 @@ body {
   color: #BDBDBD;
 }
 
+.footer {
+  border-top: 3px solid #F2C07E;
+  padding-top: 0;
+}
+.footer__nav > li > a {
+  letter-spacing: -0.177119px;
+  color: #848484;
+}
+.footer__title {
+  letter-spacing: -0.177119px;
+  margin-bottom: 23px;
+  color: #000000;
+  font-family: "HK Grotesk Bold", sans-serif;
+}
+.footer__navbar {
+  border-top: 2px solid #9B9B9B;
+}
+.footer__navbar .uk-logo {
+  letter-spacing: -0.177119px;
+  color: #848484;
+}
+.footer__navbar .uk-navbar-nav > li > a {
+  letter-spacing: -0.177119px;
+  color: #848484;
+}
+.footer__txt {
+  letter-spacing: -0.177119px;
+  color: #000000;
+}
+
 .home__content {
   margin-top: 6px;
+  padding-bottom: 50px;
 }
 .home__content .uk-container-small {
   max-width: 800px !important;
@@ -1511,6 +1542,10 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+.home__boxToplivesaler .home__box2__dot > li > a {
+  width: 8px;
+  height: 8px;
+}
 .home__box2__dot > li.uk-active > a {
   background: #FFFFFF;
   border: 0.3px solid #9F9F9F;
@@ -1568,6 +1603,8 @@ body {
   padding: 10px 30px;
   padding-left: 60px;
   padding-right: 60px;
+  padding-bottom: 1px;
+  padding-top: 0;
 }
 .home__boxToplivesaler__body__item:nth-child(n+2) {
   margin-top: 6px;

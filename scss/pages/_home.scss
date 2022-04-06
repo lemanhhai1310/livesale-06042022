@@ -1,6 +1,7 @@
 .home{
   &__content{
     margin-top: 6px;
+    padding-bottom: 50px;
     .uk-container-small{
       max-width: 800px !important;
       padding: 0 10px;
@@ -296,6 +297,11 @@
           background: #FECDB7;
           border: 0.3px solid #9F9F9F;
           box-sizing: border-box;
+          .home__boxToplivesaler &{
+            $x:8px;
+            width: #{$x};
+            height: #{$x};
+          }
         }
         &.uk-active{
           >a{
@@ -369,6 +375,8 @@
       padding: 10px 30px;
       padding-left: 60px;
       padding-right: 60px;
+      padding-bottom: 1px;
+      padding-top: 0;
       &__item{
         &:nth-child(n+2){
           margin-top: 6px;
