@@ -1,6 +1,6 @@
-<div class="footer uk-section">
+<div class="footer uk-section-small">
     <div class="uk-container uk-container-large">
-        <div class="uk-section">
+        <div class="uk-section-small">
             <div class="uk-child-width-1-5@m" uk-grid>
                 <div>
                     <div class="footer__title">CHĂM SÓC KHÁCH HÀNG</div>

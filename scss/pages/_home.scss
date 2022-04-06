@@ -438,4 +438,30 @@
       }
     }
   }
+  &__boxSp{
+    &__header{
+      padding: 10px 30px;
+      padding-bottom: 0;
+    }
+    &__body{
+      padding: 10px 30px;
+      padding-bottom: 20px;
+    }
+    &__name{
+      letter-spacing: -0.208633px;
+      @extend .fz-13;
+      font-family: $font-HKGrotesk-Medium;
+      a{
+        color: #000000;
+
+      }
+    }
+    &__price{
+      letter-spacing: -0.208633px;
+
+      color: #B16323;
+      @extend .fz-14;
+      font-family: $font-HKGrotesk-Bold;
+    }
+  }
 }

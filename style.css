@@ -891,30 +891,30 @@ body {
   }
 }
 
-.fz-13, .home__boxToplivesaler__body__value, .home__card__name {
+.fz-13, .home__boxSp__name, .home__boxToplivesaler__body__value, .home__card__name {
   font-size: 13px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-13, .home__boxToplivesaler__body__value, .home__card__name {
+  .fz-13, .home__boxSp__name, .home__boxToplivesaler__body__value, .home__card__name {
     font-size: calc(13px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-13, .home__boxToplivesaler__body__value, .home__card__name {
+  .fz-13, .home__boxSp__name, .home__boxToplivesaler__body__value, .home__card__name {
     font-size: 13px !important;
   }
 }
 
-.fz-14, .home__boxToplivesaler__header__linkmore, .home__box2__name, .home__card__subnav > li > a, .home__card__price, .home__boxUser__txt, .home__boxNav__txt {
+.fz-14, .home__boxSp__price, .home__boxToplivesaler__header__linkmore, .home__box2__name, .home__card__subnav > li > a, .home__card__price, .home__boxUser__txt, .home__boxNav__txt {
   font-size: 14px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-14, .home__boxToplivesaler__header__linkmore, .home__box2__name, .home__card__subnav > li > a, .home__card__price, .home__boxUser__txt, .home__boxNav__txt {
+  .fz-14, .home__boxSp__price, .home__boxToplivesaler__header__linkmore, .home__box2__name, .home__card__subnav > li > a, .home__card__price, .home__boxUser__txt, .home__boxNav__txt {
     font-size: calc(14px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-14, .home__boxToplivesaler__header__linkmore, .home__box2__name, .home__card__subnav > li > a, .home__card__price, .home__boxUser__txt, .home__boxNav__txt {
+  .fz-14, .home__boxSp__price, .home__boxToplivesaler__header__linkmore, .home__box2__name, .home__card__subnav > li > a, .home__card__price, .home__boxUser__txt, .home__boxNav__txt {
     font-size: 14px !important;
   }
 }
@@ -1128,6 +1128,9 @@ body {
 }
 .item__8:nth-child(n+2) {
   margin-top: 8px;
+}
+.item__5:nth-child(n+2) {
+  margin-top: 5px;
 }
 
 .header {
@@ -1655,4 +1658,24 @@ body {
           box-sizing: border-box;
   border-radius: 4.45183px;
   padding: 10px;
+}
+.home__boxSp__header {
+  padding: 10px 30px;
+  padding-bottom: 0;
+}
+.home__boxSp__body {
+  padding: 10px 30px;
+  padding-bottom: 20px;
+}
+.home__boxSp__name {
+  letter-spacing: -0.208633px;
+  font-family: "HK Grotesk Medium", sans-serif;
+}
+.home__boxSp__name a {
+  color: #000000;
+}
+.home__boxSp__price {
+  letter-spacing: -0.208633px;
+  color: #B16323;
+  font-family: "HK Grotesk Bold", sans-serif;
 }
