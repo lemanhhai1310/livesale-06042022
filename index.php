@@ -376,30 +376,173 @@
                         <div class="home__box2__title">Top đề xuất</div>
                     </div>
                     <div class="item__20">
-                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+                        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider="autoplay: true">
 
                             <ul class="uk-slider-items uk-grid uk-grid-small">
                                 <?php
                                 $data = array(
                                     array(
-                                        'src' => '',
+                                        'src' => 'images/Livesale.com/Livesale.com/top1.png',
                                     ),
                                     array(
-                                        'src' => '',
+                                        'src' => 'images/Livesale.com/Livesale.com/top1.png',
                                     ),
                                     array(
-                                        'src' => '',
+                                        'src' => 'images/Livesale.com/Livesale.com/top1.png',
                                     ),
                                 );
                                 foreach ($data as $k=>$v):?>
                                 <li class="uk-width-3-5">
-
+                                    <div class="uk-grid-match uk-grid-collapse" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-cover-container">
+                                                <img src="<?= $v['src'] ?>" alt="" uk-cover="">
+                                                <canvas width="116" height="116"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-padding-small home__box2__box">
+                                                <div class="home__box2__item home__box2__name"><a href="">Máy chăm sóc da đa chức năng Dr.Glatt Dua Fit...</a></div>
+                                                <div class="home__box2__item">
+                                                    <div class="uk-grid-10 uk-flex-middle" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <div class="uk-cover-container uk-border-circle">
+                                                                <img src="images/Livesale.com/Livesale.com/logobrand.png" alt="" uk-cover="">
+                                                                <canvas width="35" height="35"></canvas>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <div class="home__box2__name">Blerluti Clother</div>
+                                                            <div class="home__box2__txt">Standard</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="home__box2__item home__box2__price">238.000đ</div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                                 <?php endforeach; ?>
                             </ul>
+                            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin home__box2__dot"></ul>
 
-                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-background-default item__10 home__boxToplivesaler">
+                    <div class="home__boxToplivesaler__header">
+                        <div class="uk-flex-middle" uk-grid>
+                            <div class="uk-width-expand">
+                                <div class="home__boxToplivesaler__header__title">Top Livesaler</div>
+                            </div>
+                            <div class="uk-width-auto">
+                                <a href="" class="home__boxToplivesaler__header__linkmore">xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home__boxToplivesaler__body">
+                        <div uk-slider>
+
+                            <div class="uk-position-relative">
+
+                                <div class="uk-slider-container">
+                                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-match uk-grid-small" uk-grid>
+                                        <?php
+                                        $data = array(
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/beautiful-asian-business-woman-is-working-with-her-computer-home 1.png',
+                                                'name' => 'Huyền Trang Thu',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/lifestyle-beautiful-asian-business-young-woman-using-laptop-computer-office-desk 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/portrait-young-asia-lady-with-positive-expression-arms-crossed-smile-broadly-dressed-casual-clothing-looking-camera-pink-background 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/young-asian-woman-smiling-pointing-finger 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/beautiful-asian-business-woman-is-working-with-her-computer-home 1.png',
+                                                'name' => 'Huyền Trang Thu',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/lifestyle-beautiful-asian-business-young-woman-using-laptop-computer-office-desk 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/portrait-young-asia-lady-with-positive-expression-arms-crossed-smile-broadly-dressed-casual-clothing-looking-camera-pink-background 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/young-asian-woman-smiling-pointing-finger 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                        );
+                                        foreach ($data as $k=>$v): ?>
+                                            <li>
+                                                <div class="uk-padding-small home__boxToplivesaler__body__box">
+                                                    <div class="home__boxToplivesaler__body__item">
+                                                        <div class="uk-cover-container">
+                                                            <img src="<?= $v['src'] ?>" alt="" uk-cover="">
+                                                            <canvas width="134" height="147"></canvas>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home__boxToplivesaler__body__item">
+                                                        <div class="home__boxToplivesaler__body__name"><?= $v['name'] ?></div>
+                                                        <div class="home__boxToplivesaler__body__kimcuong uk-border-pill">
+                                                            <img class="uk-position-center-left" src="images/Livesale.com/Livesale.com/kimc.png" alt="">
+                                                            Kim cương xanh
+                                                        </div>
+                                                    </div>
+                                                    <div class="home__boxToplivesaler__body__item">
+                                                        <div class="uk-child-width-auto uk-flex-center uk-flex-middle" uk-grid>
+                                                            <div>
+                                                                <div class="uk-text-center">
+                                                                    <div class="home__boxToplivesaler__body__label">Follower</div>
+                                                                    <div class="home__boxToplivesaler__body__value">1.5M</div>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="uk-text-center">
+                                                                    <div class="home__boxToplivesaler__body__label">Đã bán</div>
+                                                                    <div class="home__boxToplivesaler__body__value">1000</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="home__boxToplivesaler__body__item">
+                                                        <div class="uk-grid-10 uk-child-width-1-2" uk-grid>
+                                                            <div>
+                                                                <a href="" class="home__boxToplivesaler__body__btn uk-border-pill uk-button uk-button-default uk-button-small">Xem trang</a>
+                                                            </div>
+                                                            <div>
+                                                                <a href="" class="home__boxToplivesaler__body__btn uk-border-pill uk-button uk-button-default uk-button-small">Follow</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                </div>
+
+                                <div class="uk-hidden@s uk-light">
+                                    <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                </div>
+
+                                <div class="uk-visible@s">
+                                    <a class="home__box1__body__nav home__box1__body__nav--prev uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="home__box1__body__nav home__box1__body__nav--next uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                </div>
+
+                            </div>
+
+                            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin home__box2__dot"></ul>
 
                         </div>
                     </div>
