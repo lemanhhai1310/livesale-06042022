@@ -719,6 +719,7 @@
                 <div class="item__10">
                     <div><img class="uk-width-1-1" src="images/Livesale.com/Livesale.com/chuongngayle.png" alt=""></div>
                     <div class="home__blockUudaihot__card uk-card uk-card-body">
+
                         <div uk-slider>
 
                             <div class="uk-position-relative">
@@ -795,6 +796,93 @@
                     </div>
                 </div>
                 <!--/ƯU ĐÃI HOT-BỘ SƯU TẬP-->
+                <!--Đề xuất hôm nay-Sản phẩm kèm video-Nhà cung cấp-->
+                <div class="item__10 uk-background-default uk-card home__blockDexuat__card">
+                    <div class="home__blockDexuat__card__body uk-card-body">
+                        <div class="item__15">
+                            <ul class="uk-child-width-expand home__blockDexuat__tabNav uk-margin-remove-bottom" uk-tab>
+                                <li class="uk-active"><a href="#">Đề xuất hôm nay</a></li>
+                                <li><a href="#">Sản phẩm kèm video</a></li>
+                                <li><a href="#">Nhà cung cấp</a></li>
+                            </ul>
+                        </div>
+                        <div class="item__15">
+                            <div class="uk-grid-5 uk-flex-middle uk-flex-right" uk-grid>
+                                <div>
+                                    <div class="home__blockDexuat__fillter" uk-form-custom="target: > * > span:nth-child(2)">
+                                        <select>
+                                            <option value="0">Giá từ cao tới thấp</option>
+                                            <option value="1">Giá từ thấp tới cao</option>
+                                        </select>
+                                        <button class="home__blockDexuat__fillter__btn uk-button uk-button-default" type="button" tabindex="-1">
+                                            <span>sắp xếp theo:</span>
+                                            <span></span>
+                                            <span uk-icon="icon: chevron-down"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="uk-flex uk-flex-middle">
+                                    <a href="" class="home__blockDexuat__navIcon home__blockDexuat__navIcon--grid"></a>
+                                    <a href="" class="home__blockDexuat__navIcon home__blockDexuat__navIcon--list"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item__15">
+                            <div class="uk-grid-small uk-child-width-1-5@m uk-grid-row-medium" uk-grid>
+                                <?php
+                                $data = array(
+                                    array(
+                                        'src' => 'images/sp/Livesale.com/Livesale.com/sp1.png',
+                                    ),
+                                    array(
+                                        'src' => 'images/sp/Livesale.com/Livesale.com/sp2.png',
+                                    ),
+                                    array(
+                                        'src' => 'images/sp/Livesale.com/Livesale.com/sp3.png',
+                                    ),
+                                    array(
+                                        'src' => 'images/sp/Livesale.com/Livesale.com/sp4.png',
+                                    ),
+                                    array(
+                                        'src' => 'images/sp/Livesale.com/Livesale.com/sp5.png',
+                                    ),
+                                    array(
+                                        'src' => 'images/sp/Livesale.com/Livesale.com/sp6.png',
+                                    ),
+                                    array(
+                                        'src' => 'images/sp/Livesale.com/Livesale.com/sp7.png',
+                                    ),
+                                    array(
+                                        'src' => 'images/sp/Livesale.com/Livesale.com/sp8.png',
+                                    ),
+                                    array(
+                                        'src' => 'images/sp/Livesale.com/Livesale.com/sp9.png',
+                                    ),
+                                    array(
+                                        'src' => 'images/sp/Livesale.com/Livesale.com/sp10.png',
+                                    ),
+                                );
+                                foreach ($data as $k=>$v): ?>
+                                    <div>
+                                        <div class="item__5">
+                                            <div class="uk-cover-container">
+                                                <img src="<?= $v['src'] ?>" alt="" uk-cover="">
+                                                <canvas width="140" height="164"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="item__5">
+                                            <div class="home__boxSp__name"><a href="">Bộ 10 cọ trang điểm và 1 hộp đứng hồng</a></div>
+                                        </div>
+                                        <div class="item__5">
+                                            <div class="home__boxSp__price">350.000 đ</div>
+                                        </div>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/Đề xuất hôm nay-Sản phẩm kèm video-Nhà cung cấp-->
             </div>
         </div>
         <div class="uk-width-auto home__right">
