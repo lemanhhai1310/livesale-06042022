@@ -547,7 +547,43 @@
                         </div>
                     </div>
                 </div>
-                <div class="item__10"><img src="images/Livesale.com/Livesale.com/banner1.png" alt=""></div>
+                <div class="item__10 home__box3">
+                    <div class="uk-grid-small uk-grid-match" uk-grid>
+                        <div class="uk-width-1-3@m">
+                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="sets: true">
+
+                                <ul class="uk-slider-items uk-child-width-1-1">
+                                    <li>
+                                        <div class="uk-cover-container">
+                                            <img src="images/sp/Livesale.com/Livesale.com/banner.png" alt="" uk-cover="">
+                                            <canvas width="248" height="304"></canvas>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="uk-cover-container">
+                                            <img src="images/sp/Livesale.com/Livesale.com/banner.png" alt="" uk-cover="">
+                                            <canvas width="248" height="304"></canvas>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="uk-cover-container">
+                                            <img src="images/sp/Livesale.com/Livesale.com/banner.png" alt="" uk-cover="">
+                                            <canvas width="248" height="304"></canvas>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center home__box2__dot"></ul>
+
+                            </div>
+                        </div>
+                        <div class="uk-width-expand">
+
+                        </div>
+                    </div>
+                </div>
                 <div class="item__10 home__boxSp uk-background-default">
                     <div class="home__boxSp__header">
                         <div class="uk-flex-middle uk-grid" uk-grid="">
@@ -613,6 +649,80 @@
                         </div>
                     </div>
                 </div>
+                <div class="item__10"><img src="images/Livesale.com/Livesale.com/banner1.png" alt=""></div>
+                <div class="item__10 home__boxSp uk-background-default">
+                    <div class="home__boxSp__header">
+                        <div class="uk-flex-middle uk-grid" uk-grid="">
+                            <div class="uk-width-expand uk-first-column">
+                                <div class="home__boxToplivesaler__header__title">Sản phẩm mới</div>
+                            </div>
+                            <div class="uk-width-auto">
+                                <a href="" class="home__boxToplivesaler__header__linkmore">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home__boxSp__body">
+                        <div class="uk-grid-small uk-child-width-1-5@m uk-grid-row-medium" uk-grid>
+                            <?php
+                            $data = array(
+                                array(
+                                    'src' => 'images/sp/Livesale.com/Livesale.com/sp1.png',
+                                ),
+                                array(
+                                    'src' => 'images/sp/Livesale.com/Livesale.com/sp2.png',
+                                ),
+                                array(
+                                    'src' => 'images/sp/Livesale.com/Livesale.com/sp3.png',
+                                ),
+                                array(
+                                    'src' => 'images/sp/Livesale.com/Livesale.com/sp4.png',
+                                ),
+                                array(
+                                    'src' => 'images/sp/Livesale.com/Livesale.com/sp5.png',
+                                ),
+                                array(
+                                    'src' => 'images/sp/Livesale.com/Livesale.com/sp6.png',
+                                ),
+                                array(
+                                    'src' => 'images/sp/Livesale.com/Livesale.com/sp7.png',
+                                ),
+                                array(
+                                    'src' => 'images/sp/Livesale.com/Livesale.com/sp8.png',
+                                ),
+                                array(
+                                    'src' => 'images/sp/Livesale.com/Livesale.com/sp9.png',
+                                ),
+                                array(
+                                    'src' => 'images/sp/Livesale.com/Livesale.com/sp10.png',
+                                ),
+                            );
+                            foreach ($data as $k=>$v): ?>
+                                <div>
+                                    <div class="item__5">
+                                        <div class="uk-cover-container">
+                                            <img src="<?= $v['src'] ?>" alt="" uk-cover="">
+                                            <canvas width="140" height="164"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="item__5">
+                                        <div class="home__boxSp__name"><a href="">Bộ 10 cọ trang điểm và 1 hộp đứng hồng</a></div>
+                                    </div>
+                                    <div class="item__5">
+                                        <div class="home__boxSp__price">350.000 đ</div>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </div>
+                <!--ƯU ĐÃI HOT-BỘ SƯU TẬP-->
+                <div class="item__10">
+                    <div><img class="uk-width-1-1" src="images/Livesale.com/Livesale.com/chuongngayle.png" alt=""></div>
+                    <div class="home__blockUudaihot__card uk-card uk-card-body">
+
+                    </div>
+                </div>
+                <!--/ƯU ĐÃI HOT-BỘ SƯU TẬP-->
             </div>
         </div>
         <div class="uk-width-auto home__right">

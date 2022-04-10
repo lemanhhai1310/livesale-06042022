@@ -1679,3 +1679,11 @@ body {
   color: #B16323;
   font-family: "HK Grotesk Bold", sans-serif;
 }
+.home__box3 {
+  background: #FFF3DD;
+  padding: 10px 15px;
+}
+.home__blockUudaihot__card {
+  padding: 20px 40px;
+  background: #C40005;
+}

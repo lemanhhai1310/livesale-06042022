@@ -464,4 +464,14 @@
       font-family: $font-HKGrotesk-Bold;
     }
   }
+  &__box3{
+    background: #FFF3DD;
+    padding: 10px 15px;
+  }
+  &__blockUudaihot{
+    &__card{
+      padding: 20px 40px;
+      background: #C40005;
+    }
+  }
 }
