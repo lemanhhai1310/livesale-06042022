@@ -719,7 +719,79 @@
                 <div class="item__10">
                     <div><img class="uk-width-1-1" src="images/Livesale.com/Livesale.com/chuongngayle.png" alt=""></div>
                     <div class="home__blockUudaihot__card uk-card uk-card-body">
+                        <div uk-slider>
 
+                            <div class="uk-position-relative">
+
+                                <div class="uk-slider-container">
+                                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-match uk-grid-small" uk-grid>
+                                        <?php
+                                        $data = array(
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/beautiful-asian-business-woman-is-working-with-her-computer-home 1.png',
+                                                'name' => 'Huyền Trang Thu',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/lifestyle-beautiful-asian-business-young-woman-using-laptop-computer-office-desk 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/portrait-young-asia-lady-with-positive-expression-arms-crossed-smile-broadly-dressed-casual-clothing-looking-camera-pink-background 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/young-asian-woman-smiling-pointing-finger 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/beautiful-asian-business-woman-is-working-with-her-computer-home 1.png',
+                                                'name' => 'Huyền Trang Thu',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/lifestyle-beautiful-asian-business-young-woman-using-laptop-computer-office-desk 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/portrait-young-asia-lady-with-positive-expression-arms-crossed-smile-broadly-dressed-casual-clothing-looking-camera-pink-background 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                            array(
+                                                'src' => 'images/Livesale.com/Livesale.com/young-asian-woman-smiling-pointing-finger 1.png',
+                                                'name' => 'Mai Thanh Trang',
+                                            ),
+                                        );
+                                        foreach ($data as $k=>$v): ?>
+                                            <li>
+                                                <div class="home__blockUudaihot__box">
+                                                    <div class="uk-cover-container">
+                                                        <img src="images/Livesale.com/Livesale.com/uudai1.png" alt="" uk-cover="">
+                                                        <canvas width="147" height="143"></canvas>
+                                                    </div>
+                                                    <div class="home__blockUudaihot__box__boxItem">
+                                                        <div class="home__boxSp__name"><a href="">Bộ 10 cọ trang điểm và 1 hộp đứng hồng</a></div>
+                                                        <div class="home__blockUudaihot__box__date">13 - 19/9/2021</div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                </div>
+
+                                <div class="uk-hidden@s uk-light">
+                                    <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                </div>
+
+                                <div class="uk-visible@s">
+                                    <a class="home__box1__body__nav home__box1__body__nav--prev uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="home__box1__body__nav home__box1__body__nav--next uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                </div>
+
+                            </div>
+
+                            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin home__box2__dot uk-hidden"></ul>
+
+                        </div>
                     </div>
                 </div>
                 <!--/ƯU ĐÃI HOT-BỘ SƯU TẬP-->

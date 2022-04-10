@@ -470,8 +470,30 @@
   }
   &__blockUudaihot{
     &__card{
-      padding: 20px 40px;
+      padding: 20px 60px;
       background: #C40005;
+    }
+    &__box{
+      padding: 3px;
+      background: #FFFFFF;
+      border-radius: 2.99565px;
+      &__boxItem{
+        >*{
+          &:nth-child(n+2){
+            margin-top: 6px;
+          }
+        }
+      }
+      &__date{
+        letter-spacing: -0.265293px;
+        background-image: url("data:image/svg+xml,%3Csvg width='14' height='15' viewBox='0 0 14 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.2056 14.245H2.24503C1.45917 14.245 0.822098 13.6079 0.822098 12.822V2.86149C0.822098 2.07563 1.45917 1.43856 2.24503 1.43856H3.66797V0.015625H5.0909V1.43856H9.3597V0.015625H10.7826V1.43856H12.2056C12.9914 1.43856 13.6285 2.07563 13.6285 2.86149V12.822C13.6285 13.6079 12.9914 14.245 12.2056 14.245ZM2.24503 5.70736V12.822H12.2056V5.70736H2.24503ZM2.24503 2.86149V4.28443H12.2056V2.86149H2.24503ZM10.7826 11.3991H9.3597V9.97616H10.7826V11.3991ZM7.93677 11.3991H6.51383V9.97616H7.93677V11.3991ZM5.0909 11.3991H3.66797V9.97616H5.0909V11.3991ZM10.7826 8.55323H9.3597V7.13029H10.7826V8.55323ZM7.93677 8.55323H6.51383V7.13029H7.93677V8.55323ZM5.0909 8.55323H3.66797V7.13029H5.0909V8.55323Z' fill='%23B16323'/%3E%3C/svg%3E%0A");
+        color: #B16323;
+        @extend .fz-16;
+        font-family: $font-HKGrotesk-SemiBold;
+        padding-left: 20px;
+        background-repeat: no-repeat;
+        background-position: center left;
+      }
     }
   }
 }
